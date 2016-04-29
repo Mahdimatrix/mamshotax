@@ -208,17 +208,11 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-    	"Spammer",
     	"Spammer2",
-    	"Spammer3",
-    	"onservice",
-    	"plugins",
-    	"spam",
     	"spam2",
     	"xy",
-    	"xy2",
-    	"xy3",
-    	"tooti"
+    	"lastspammer",
+    	
     },
     sudo_users = {122997453,212833120,207248520,125871286,189716959,134461890,0,tonumber(187155920)},--Sudo users
     disabled_channels = {},
